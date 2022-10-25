@@ -3,12 +3,12 @@ server:
   port: 8888
 spring:
   application:
-    name: configserver
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/Juanjosan96/Bootcamp.git
+          uri: https://github.com/ismaelpe/bootCamp-ConfigServer.git
         default-label: main
         search-paths:
         - '*service*'
